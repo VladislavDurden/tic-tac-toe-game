@@ -1,0 +1,56 @@
+#game-area{
+    display: none;
+    width: 450px;
+    height: 450px;
+    background: #adadad;
+    border: 2px solid black;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+.block{
+    font-family: monospace;
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    line-height: 150px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.white{
+    color: white;
+    font-weight:bold;
+    font-size: 90px;
+    
+}
+
+#start{
+    width: 500px;
+    height: 150px;
+    line-height: 100px;
+    background-color: yellow;
+    font-size: 50px;
+    color: blue;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin-left: 33%;
+    margin-top: 15%;
+    opacity: 0.6;
+}
+
+#start:hover{
+
+    font-size: 40px;
+    opacity: 1;
+
+}
+
+#start:active{
+    background-color: orangered;
+    color: aliceblue;
+    font-weight:bold;
+    outline: none;
+}
